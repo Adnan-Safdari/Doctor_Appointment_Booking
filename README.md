@@ -91,14 +91,16 @@ You’ll also need:
    - Create a MySQL database named `appointment_system`
    - Import the provided `database.sql` file (add this to your repo)
 
-3. **Configure Database Connection**
-   - Edit `db/config.php` and set your DB credentials:
-     ```php
-     $host = "localhost";
-     $username = "root";
-     $password = "";
-     $dbname = "appointment_system";
-     ```
+3. **Create the .env File**
+    - In the root directory of the project, create a `.env` file.
+    - Add the following variables, replacing the values with your actual database credentials:
+  ```
+  DB_HOST=localhost
+  DB_PORT=3306
+  DB_USER=your_db_username
+  DB_PASS=your_db_password
+  DB_NAME=appointment_system
+  ```
 
 4. **Run the Project**
    - Place the project folder in `htdocs` (if using XAMPP)
