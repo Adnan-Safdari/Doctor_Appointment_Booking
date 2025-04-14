@@ -84,7 +84,7 @@ You’ll also need:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://github.com/yourusername/doctor-appointment-system.git
+   git clone https://github.com/Adnan-Safdari/Doctor_Appointment_Booking
    ```
 
 2. **Import the Database**
