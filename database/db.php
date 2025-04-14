@@ -1,7 +1,5 @@
 <?php
-// require_once '../load_env.php';
 
-// loadEnv(__DIR__ . '../.env'); // Loads .env file from the same directory
 require_once __DIR__ . '/../load_env.php';
 loadEnv(__DIR__ . '/../.env');
 
