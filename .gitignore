@@ -1,0 +1,32 @@
+# PHP-related
+vendor/
+composer.lock
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+
+# Logs
+*.log
+
+# Cache
+.cache/
+*.tmp
+
+# IDEs
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Build artifacts
+dist/
+build/
+
+# Misc
+*.bak
+*.swp
