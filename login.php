@@ -65,7 +65,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <label class="form-check-label" for="rememberMe">Remember me</label>
                     <a href="#" class="float-end">Forgot password?</a>
                 </div>
-                <button type="submit" class="btn btn-primary btn-block">Sign In</button>
+                <button type="submit" class="btn btn-success btn-block">Sign In</button>
             </form>
 
             <p class="text-center mt-3">Don't have an account? <a href="signup.php">Sign up</a></p>

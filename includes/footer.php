@@ -21,7 +21,7 @@
                         <li><a href="#">Doctors Dashboard</a></li>
                         <li><a href="#">About</a></li>
                     </ul>
-                </div>
+                </div>  
                 <div class="col-md-4">
                     <h5>Contact</h5>
                     <p>1-800-MEDIBOOK</p>
