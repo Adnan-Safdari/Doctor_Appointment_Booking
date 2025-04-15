@@ -1,5 +1,6 @@
 <?php
-session_start();
+include './includes/header.php';
+include './database/db.php';
 
 // Check if the user is already logged in
 if (isset($_SESSION['user_id'])) {
@@ -7,15 +8,14 @@ if (isset($_SESSION['user_id'])) {
     exit();
 }
 
-include './database/db.php';
-
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    
-    // TODO: Write code to check the email and password with the database
+    // TODO
+    //  Write code to check the email and password with the database 
+    // (call the function written in helpers/functions.php)
     // If password is correct, use header() to redirect to 'index.php'
 
-    mysqli_close($conn);
+    
 }
 ?>
 
@@ -54,11 +54,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <form method="post" action="">
                 <div class="form-group">
                     <label for="email">Email</label>
-                    <input type="email" class="form-control" id="email" name="email" required>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="Enter email address" required>
                 </div>
                 <div class="form-group">
                     <label for="password">Password</label>
-                    <input type="password" class="form-control" id="password" name="password" required>
+                    <input type="password" class="form-control" id="password" name="password" placeholder="Enter password" required>
                 </div>
                 <div class="form-group form-check">
                     <input type="checkbox" class="form-check-input" id="rememberMe">
@@ -68,10 +68,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 <button type="submit" class="btn btn-primary btn-block">Sign In</button>
             </form>
 
-            <p class="text-center mt-3">Don't have an account? <a href="register.php">Sign up</a></p>
+            <p class="text-center mt-3">Don't have an account? <a href="signup.php">Sign up</a></p>
         </div>
     </div>
-
+    <?php include './includes/footer.php'; ?>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

@@ -28,10 +28,10 @@ session_start();
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav ms-auto">
-                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./index.php">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="#">Featured Doctors</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Patient Dashboard</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#">Doctor Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./patient_dashboard.php">Patient Dashboard</a></li>
+                    <li class="nav-item"><a class="nav-link" href="./doctor_dashboard">Doctor Dashboard</a></li>
                 </ul>
                 <?php if (isset($_SESSION['user_id'])): ?>
                     <!-- Display user name and profile picture if logged in -->
@@ -45,8 +45,8 @@ session_start();
                 <?php else: ?>
                     <!-- Display Login and Register buttons if not logged in -->
                     <ul class="navbar-nav">
-                        <li class="nav-item"><a class="nav-link" href="#">Login</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#">Register</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./login.php">Login</a></li>
+                        <li class="nav-item"><a class="nav-link" href="./signup.php">Signup</a></li>
                     </ul>
                 <?php endif; ?>
             </div>
