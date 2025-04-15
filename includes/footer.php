@@ -1,28 +1,12 @@
-    <!-- How It Works -->
-    <section class="how-it-works">
-        <div class="container">
-            <h2>How It Works</h2>
-            <div class="row">
-                <div class="col-md-4">
-                    <img src="https://via.placeholder.com/70" alt="Search Doctor" class="img-fluid mb-3">
-                    <h5>Search Doctor</h5>
-                    <p>Find the right doctor based on your needs and location.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://via.placeholder.com/70" alt="Book Appointment" class="img-fluid mb-3">
-                    <h5>Book Appointment</h5>
-                    <p>Select your preferred time slot and book instantly.</p>
-                </div>
-                <div class="col-md-4">
-                    <img src="https://via.placeholder.com/70" alt="Get Consultation" class="img-fluid mb-3">
-                    <h5>Get Consultation</h5>
-                    <p>Visit the doctor and get the care you need.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="./assets/css/footer.css"
+</head>
+<body>
     <footer class="footer">
         <div class="container">
             <div class="row">

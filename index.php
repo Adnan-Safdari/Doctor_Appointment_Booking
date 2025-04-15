@@ -7,8 +7,8 @@
                 <div class="col-md-6">
                     <h1>Book Your Doctor Appointment Online</h1>
                     <p>Find and book appointments with the best doctors near you. Quick, easy, and secure.</p>
-                    <a href="#" class="btn btn-primary">Book Appointment</a>
-                    <a href="#" class="btn btn-outline-primary">View Doctors</a>
+                    <a href="#" class="btn btn-success">Book Appointment</a>
+                    <a href="#" class="btn btn-outline-success">View Doctors</a>
                 </div>
                 <div class="col-md-6">
                     <img src="assets\images\doctor_patient.png" alt="Doctor and Patient" class="img-fluid" id="main-doc-patient-img">
@@ -34,7 +34,7 @@
                 <div class="col-md-4">
                     <div class="input-group">
                         <input type="date" class="form-control">
-                        <button class="btn btn-primary" type="button">Search Doctors</button>
+                        <button class="btn btn-success" type="button">Search Doctors</button>
                     </div>
                 </div>
             </div>
@@ -54,7 +54,7 @@
                             <p class="card-text">Cardiologist</p>
                             <p class="card-text">4.8 (122 reviews)</p>
                             <p class="card-text">New York, NY</p>
-                            <a href="#" class="btn btn-primary">Book Appointment</a>
+                            <a href="#" class="btn btn-success">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -66,7 +66,7 @@
                             <p class="card-text">Dermatologist</p>
                             <p class="card-text">4.9 (88 reviews)</p>
                             <p class="card-text">Los Angeles, CA</p>
-                            <a href="#" class="btn btn-primary">Book Appointment</a>
+                            <a href="#" class="btn btn-success">Book Appointment</a>
                         </div>
                     </div>
                 </div>
@@ -78,9 +78,33 @@
                             <p class="card-text">Neurologist</p>
                             <p class="card-text">4.7 (95 reviews)</p>
                             <p class="card-text">Chicago, IL</p>
-                            <a href="#" class="btn btn-primary">Book Appointment</a>
+                            <a href="#" class="btn btn-success">Book Appointment</a>
                         </div>
                     </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works -->
+    <section class="how-it-works">
+        <div class="container">
+            <h2>How It Works</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/70" alt="Search Doctor" class="img-fluid mb-3">
+                    <h5>Search Doctor</h5>
+                    <p>Find the right doctor based on your needs and location.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/70" alt="Book Appointment" class="img-fluid mb-3">
+                    <h5>Book Appointment</h5>
+                    <p>Select your preferred time slot and book instantly.</p>
+                </div>
+                <div class="col-md-4">
+                    <img src="https://via.placeholder.com/70" alt="Get Consultation" class="img-fluid mb-3">
+                    <h5>Get Consultation</h5>
+                    <p>Visit the doctor and get the care you need.</p>
                 </div>
             </div>
         </div>
