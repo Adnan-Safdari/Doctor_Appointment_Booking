@@ -17,8 +17,7 @@
             <div class="row mt-4">
                 <div class="col-md-4">
                     <select class="form-select">
-                        <option selected>Select Specialty</option>
-                        <option value="1">Cardiologist</option>
+                        <option selected>Select Specialty</option>                        <option value="1">Cardiologist</option>
                         <option value="2">Dermatologist</option>
                         <option value="3">Neurologist</option>
                     </select>
